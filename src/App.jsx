@@ -1,9 +1,9 @@
-import ReviewHooks from './components/ReviewHooks';
+import ApiReview from './components/ApiReview';
 
 function App() {
   return (
-    <div className='min-h-screen bg-gray-100 p-4'>
-      <ReviewHooks />
+    <div className='min-h-screen bg-gray-100 flex flex-col items-center'>
+      <ApiReview />
     </div>
   );
 }
